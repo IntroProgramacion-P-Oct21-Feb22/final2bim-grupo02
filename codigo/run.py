@@ -26,14 +26,19 @@ def crearTwitter():
     cadena = "%s\n" % ("Creando cuenta de Twitter")
     return cadena
 def crearWhatsapp():
-    
-# agregar los métodos faltantes
+    print("proceso inicial: ")
 
-# Aquí empieza el proceso cuando se ejecuta por consola
-# el archivo
-# python run.py
+def crearTelegram():
+    print ("Proceso inicial: ")
 def main():
     print("proceso inicial: ")
+def crearSignal():
+    print("proceso inicial: ")
+def crearInstagram():
+    print("proceso inicial: ")
+def crearFlickr():
+    print("proceso inicial: ")
+
 
     respuesta = input("Ingrese un número del 1 al 7 para registrar datos en la cuenta que desee\n"
                 "[1] Facebook\n"
@@ -50,8 +55,16 @@ def main():
         crearTwitter()
 
     elif respuesta == 3:
-
-
+        cuenta_whatsapp = crearWhatsapp()
+        print(cuenta_whatsapp)
+    elif respuesta == 4:
+        crearTelegram()
+    elif respuesta == 5:
+        crearSignal()
+    elif respuesta == 6:
+        crearInstagram()
+    elif respuesta == 7:
+        crearFlickr()
         """
         Leer las indicaciones para que el proceso cumpla
         lo solicitado.	
