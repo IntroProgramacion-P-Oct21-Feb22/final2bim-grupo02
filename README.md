@@ -1,6 +1,6 @@
 # 2 Bimestre 
 ## Proyecto Python
-
+##**Grupo 02 - José Luis Benítez y Ronin Carrión** 
 ***
 
 ### Problemática a resolver
